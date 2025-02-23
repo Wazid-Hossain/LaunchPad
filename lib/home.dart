@@ -25,11 +25,19 @@ class _PadState extends State<Pad> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
+      onTap: () async {
         setState(() {
           _colorCenter = Colors.white;
           _corolOutline = Colors.white;
+          player.play(
+            AssetSource(widget.note),
+          );
         });
+
+        await Future.delayed(
+          Duration(microseconds: 70000),
+        );
+
         setState(() {
           _colorCenter = widget.colorCenter;
           _corolOutline = widget.colorOutline;

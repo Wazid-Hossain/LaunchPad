@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             Pad(
               colorCenter: Color(0xffADCBFC),
               colorOutline: Color(0xff067CCB),
-              note: '1.mp3',
+              note: 'kick.wav',
             )
           ],
         ),
