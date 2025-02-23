@@ -46,7 +46,6 @@ class _PadState extends State<Pad> {
         });
       },
       child: Container(
-        margin: EdgeInsets.all(11),
         height: height / 8.2,
         width: width / 4.3,
         decoration: BoxDecoration(

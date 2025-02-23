@@ -28,7 +28,89 @@ class MyApp extends StatelessWidget {
           // centerTitle: true,
         ),
         body: Wrap(
+          spacing: 11,
+          runSpacing: 11,
           children: [
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
+            ),
             Pad(
               colorCenter: Color(0xffADCBFC),
               colorOutline: Color(0xff067CCB),
