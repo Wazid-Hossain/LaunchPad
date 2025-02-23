@@ -1,13 +1,20 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class Pad extends StatefulWidget {
+  final Colorcenter;
+  final ColorOutline;
+  final note;
+  const Pad({this.Colorcenter, this.ColorOutline, this.note, super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<Pad> createState() => _PadState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _PadState extends State<Pad> {
+  late Color _Colorcenter;
+  late Color _CorolOutline;
+  final player = AudioPlayer();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
