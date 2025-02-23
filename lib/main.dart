@@ -1,5 +1,7 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:solutin_1/home.dart';
+import 'package:solutin_1/pad.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,21 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(
-            'LaunchPad',
-            style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-                fontStyle: FontStyle.italic),
-          ),
-          backgroundColor: Colors.black,
-          // centerTitle: true,
-        ),
-        backgroundColor: Colors.black,
-      ),
+      home: Home(),
     );
   }
 }
