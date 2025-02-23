@@ -33,7 +33,22 @@ class MyApp extends StatelessWidget {
               colorCenter: Color(0xffADCBFC),
               colorOutline: Color(0xff067CCB),
               note: 'kick.wav',
-            )
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'kick.wav',
+            ),
           ],
         ),
         backgroundColor: Colors.black,
