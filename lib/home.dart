@@ -24,6 +24,8 @@ class _PadState extends State<Pad> {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    double height = MediaQuery.of(context).size.height;
     return GestureDetector(
       onTap: () async {
         setState(() {
@@ -45,8 +47,8 @@ class _PadState extends State<Pad> {
       },
       child: Container(
         margin: EdgeInsets.all(11),
-        height: 100,
-        width: 100,
+        height: height / 8.2,
+        width: width / 4.3,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.all(
             Radius.circular(6.0),

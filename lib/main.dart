@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'LaunchPad',
       home: Scaffold(
         appBar: AppBar(
           title: Text(
@@ -37,7 +37,17 @@ class MyApp extends StatelessWidget {
             Pad(
               colorCenter: Color(0xffff2525),
               colorOutline: Color(0xffC40050),
-              note: 'kick.wav',
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
             ),
             Pad(
               colorCenter: Color(0xffADCBFC),
@@ -45,9 +55,79 @@ class MyApp extends StatelessWidget {
               note: 'kick.wav',
             ),
             Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
               colorCenter: Color(0xffE247FC),
               colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
               note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'kick.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffff2525),
+              colorOutline: Color(0xffC40050),
+              note: 'Ride.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffADCBFC),
+              colorOutline: Color(0xff067CCB),
+              note: 'Snare.wav',
+            ),
+            Pad(
+              colorCenter: Color(0xffE247FC),
+              colorOutline: Color(0xffA23AB7),
+              note: 'Tom.wav',
             ),
           ],
         ),
