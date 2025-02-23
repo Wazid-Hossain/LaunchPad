@@ -24,12 +24,32 @@ class _PadState extends State<Pad> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 100,
-      width: 100,
-      decoration: BoxDecoration(
-        gradient: RadialGradient(
-          colors: [_colorCenter, _corolOutline],
+    return GestureDetector(
+      onTap: () {
+        setState(() {
+          _colorCenter = Colors.white;
+          _corolOutline = Colors.white;
+        });
+        setState(() {
+          _colorCenter = widget.colorCenter;
+          _corolOutline = widget.colorOutline;
+        });
+      },
+      child: Container(
+        margin: EdgeInsets.all(11),
+        height: 100,
+        width: 100,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.all(
+            Radius.circular(6.0),
+          ),
+          gradient: RadialGradient(
+            colors: [_colorCenter, _corolOutline],
+            radius: 0.5,
+          ),
+          boxShadow: [
+            BoxShadow(color: Colors.pink, blurRadius: 5.0),
+          ],
         ),
       ),
     );
